@@ -405,7 +405,8 @@ class MyHomePageState extends State<MyHomePage> {
                     icon: const Icon(Icons.close, color: Colors.blue),
                     onPressed: onClose,
                   ),
-                )
+                ),
+                const SizedBox(width: 5)
               ],
             ),
           ),
